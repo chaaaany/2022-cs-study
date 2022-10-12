@@ -230,3 +230,11 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 
 ![3NF](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbHpEsK%2Fbtrkz43gDik%2FWwjuPIBtTdnsAsNLfeG86K%2Fimg.png)
 
+참고자료
+
+- [https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=utis&logNo=220472055509](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=utis&logNo=220472055509)
+- [https://victorydntmd.tistory.com/129](https://victorydntmd.tistory.com/129)
+- [https://hongong.hanbit.co.kr/데이터베이스-이해하기-databasedb-dbms-sql의-개념/](https://hongong.hanbit.co.kr/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-databasedb-dbms-sql%EC%9D%98-%EA%B0%9C%EB%85%90/)
+- [https://code-lab1.tistory.com/48](https://code-lab1.tistory.com/48)
+- [https://newehblog.tistory.com/38](https://newehblog.tistory.com/38)
+- [https://developer-talk.tistory.com/256](https://developer-talk.tistory.com/256)
