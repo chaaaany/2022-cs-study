@@ -3,20 +3,14 @@
 목차
 
 DBMS
-
 DB를 사용하는 이유
-
 DBMS 종류
-
 - HDBMS
 - NDBMS
 - RDBMS
 - NoSQL
-
 테이블 구조
-
 키
-
 - 슈퍼키
 - 후보키
 - 기본키
@@ -24,7 +18,6 @@ DBMS 종류
 - 외래키
 
 정규화
-
 - 배경
 - 제 1정규화
 - 제 2정규화
@@ -38,7 +31,10 @@ DBMS 종류
     - 정의 : DB 구조 정의(테이블, 속성)
     - 조작 : DB 연산 처리(수정, 삭제, 검색)
     - 제어 : 데이터 무결성 및 일관성 유지, 접근 권한 부여, 동시성 제어
-    
+
+<BR>
+<BR>
+
 ## DB를 사용하는 이유
 
 - DB 이전 ~  `파일 시스템` 사용
@@ -48,7 +44,11 @@ DBMS 종류
 - 중복 최소화, 보안성, 계속적 변화에 대한 적응
 - 데이터 관리 기능을 통해 데이터를 편하게 관리 할 수 있음
 
+<BR>
+<BR>
+
 ## DBMS 종류
+
 ### 계층형 DBMS(HDBMS, Hierarchical DBMS)
 
 - 처음 등장한 DBMS 개념으로 1960년대 시작됨.
@@ -56,6 +56,8 @@ DBMS 종류
 - 처음 구성 완료 후 이를 변경하기 까다로움. → 현재는 사용하지 않음.
 
 ![계층형 DBMS](https://hongong.hanbit.co.kr/wp-content/uploads/2021/11/계층형DBMS.png)
+
+<BR>
 
 ### 망형 DBMS (NDBMS, Network DBMS)
 
@@ -72,6 +74,8 @@ DBMS 종류
 > 
 
 ![망형DBMS](https://hongong.hanbit.co.kr/wp-content/uploads/2021/11/망형DBMS.png)
+
+<BR>
 
 ### 관계형 DBMS (RDBMS, Relational DBMS)
 
@@ -96,6 +100,8 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 
 ![RDBMS](https://hongong.hanbit.co.kr/wp-content/uploads/2021/11/sql_table.png)
 
+<BR>
+
 ### 비관계형 DBMS (NoSQL)
 
 - 스키마가 없거나 느슨한 스키로 데이터 저장
@@ -103,6 +109,9 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 - 유연하고 확장성이 좋음
 - 데이터를 자주 변경하지 않고 정확한 데이터 구조를 알 수 없는 경우 사용함
 - 키-값 : `Redis` , 문서형(JSON, XML) : `MongoDB`
+
+<BR>
+<BR>
 
 ## 테이블 구조
 
@@ -123,6 +132,8 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 - 도메인
     - 속상 하나가 취할 수 있는 같은 타입의 원자값들의 집합
 
+<BR>
+<BR>
 
 ## 키(Key)
 
@@ -137,11 +148,14 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 
 ![테이블예시](https://github.com/workhardslave/cs-study/raw/main/Database/img/dbms3.png)
 
+<BR>
 
 ### 슈퍼키
 
 - `유일성`을 만족, 최소성은 만족하지 않는 속성의 집합
 - (위의 테이블 참조)학번, 주민번호, 이름+나이
+
+<BR>
 
 ### 후보키
 
@@ -150,6 +164,8 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 - 모든 테이블은 하나 이상의 후보키를 가짐
 - (위의 테이블 참조) 학번, 주민번호
 
+<BR>
+
 ### 기본키
 
 - 후보키 중에서 선택한 주 키(Main Key)
@@ -157,16 +173,23 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 - 중복 값과 NULL값 불가(`개체 무결성`)
 - (위의 테이블 참조) 학번
 
+<BR>
+
 ### 대체키(보조키)
 
 - 후보 키가 두 개 이상일 때 기본 키를 제외한 나머지 후보키
 - (위의 테이블 참조) 주민번호
+
+<BR>
 
 ### 외래키
 
 - 한 테이블의 키 중에서 다른 테이블의 튜플을 식별할 수 있는 키
 - 참조되는 릴레이션의 `기본키`와 대응되어 릴레이션 간에 `참조 관계`를 표현 하는 키
 - 사용하는 이유 : 테이블 연결, 중복 방지, 무결성 유지
+
+<BR>
+<BR>
 
 ## 정규화
 
@@ -178,6 +201,8 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
     - 수정 이상 : 튜플 수정 시 중복된 데이터의 일부만 수정되어 일어나는 데이터 불일치
     - 삭제 이상 : 튜플 삭제 시 같이 저장된 다른 정보까지 연쇄적으로 삭제되는 현상
 - 이러한 문제 해결을 위해 정규화 과정 진행
+
+<BR>
 
 ### 특징
 
@@ -191,6 +216,7 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
     - 질의에 대한 응답시간이 늘여질**수도** 있음.
     - 조인이 많아 성능 저하가 나타나면 반정규화를 적용할 수도 있음.
 
+<BR>
 
 ### 제 1정규형(1NF)
 
@@ -199,6 +225,7 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
     
     ![1NF](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcWnN4H%2FbtrkvINLOvN%2FWCeNK8l2Kdixwf9SKa5o80%2Fimg.png)
     
+<BR>
 
 ### 제 2정규형(2NF)
 
@@ -213,6 +240,8 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
     > 
 
 ![2NF](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkAt80%2FbtrkuJl1lkz%2FbF2qmwfoOsXMFYFpt9i0H0%2Fimg.png)
+
+<BR>
 
 ### 제 3정규형(3NF)
 
