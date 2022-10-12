@@ -190,3 +190,13 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
     - JOIN 연산 증가. 릴레이션의 분해로 릴레이션 간의 JOIN 연산이 많아짐
     - 질의에 대한 응답시간이 늘여질**수도** 있음.
     - 조인이 많아 성능 저하가 나타나면 반정규화를 적용할 수도 있음.
+
+
+### 제 1정규형(1NF)
+
+- 규칙
+    - 테이블 칼럼이 분해되지 않는 `원자값`을 가져야함.
+    
+    ![1NF](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcWnN4H%2FbtrkvINLOvN%2FWCeNK8l2Kdixwf9SKa5o80%2Fimg.png)
+    
+
