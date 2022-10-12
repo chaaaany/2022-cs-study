@@ -49,3 +49,10 @@ DBMS 종류
 - 데이터 관리 기능을 통해 데이터를 편하게 관리 할 수 있음
 
 ## DBMS 종류
+### 계층형 DBMS(HDBMS, Hierarchical DBMS)
+
+- 처음 등장한 DBMS 개념으로 1960년대 시작됨.
+- 트리 형태를 갖음.
+- 처음 구성 완료 후 이를 변경하기 까다로움. → 현재는 사용하지 않음.
+
+![계층형 DBMS](https://hongong.hanbit.co.kr/wp-content/uploads/2021/11/계층형DBMS.png)
