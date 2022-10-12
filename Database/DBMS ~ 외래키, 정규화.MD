@@ -96,3 +96,10 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 
 ![RDBMS](https://hongong.hanbit.co.kr/wp-content/uploads/2021/11/sql_table.png)
 
+### 비관계형 DBMS (NoSQL)
+
+- 스키마가 없거나 느슨한 스키로 데이터 저장
+- 데이터 질의 API 다양함
+- 유연하고 확장성이 좋음
+- 데이터를 자주 변경하지 않고 정확한 데이터 구조를 알 수 없는 경우 사용함
+- 키-값 : `Redis` , 문서형(JSON, XML) : `MongoDB`
