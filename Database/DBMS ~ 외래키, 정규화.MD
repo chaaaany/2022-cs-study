@@ -214,3 +214,19 @@ RDBMS에서 사용되는 언어로 특정 회사에서 만드는게 아니라 `�
 
 ![2NF](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkAt80%2FbtrkuJl1lkz%2FbF2qmwfoOsXMFYFpt9i0H0%2Fimg.png)
 
+### 제 3정규형(3NF)
+
+- 규칙
+    - 제 2정규형 만족
+    - 기본키를 제외한 속성들 간에 이행 종속성이 없어야 함.
+    
+    > 👆**이행 종속성?**
+    > 
+    > 
+    > A → B , B → C 인 경우 A → C 가 성립될 때.
+    > 
+    > 즉, A를 알면 B를 알고 그를 통해 C를 알 수 있는 경우를 의미
+    > 
+
+![3NF](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbHpEsK%2Fbtrkz43gDik%2FWwjuPIBtTdnsAsNLfeG86K%2Fimg.png)
+
